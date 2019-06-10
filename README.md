@@ -1,8 +1,8 @@
 # nodejs-webcrawler
 Example webcrawler in NodeJS with Puppeteer
 
-# Build
+### Build
 docker-compose -f docker-compose.debug.yml up -d --build
 
-# Run
+### Run
 docker-compose exec webcrawler nodejs webcrawler.js
